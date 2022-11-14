@@ -1,0 +1,14 @@
+<div class="container mt-5 ml-5">
+  <h1>Stupid Coaching</h1>
+  <div class="alert alert-light">
+    <%= @question %>
+    <p><em>-You</em></p>
+  </div>
+  <div class="alert alert-warning">
+    <%= @display_answer %>
+    <p><em>-Your coach</em></p>
+  </div>
+  <div class="text-decoration-none">
+    <%= link_to "Ask an other question", ask_path %>
+  </div>
+</div>
